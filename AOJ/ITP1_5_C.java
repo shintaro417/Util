@@ -14,6 +14,7 @@ public class Main {
 
 			for(int i = 0;i < h;i++) {
 				for(int j = 0; j < w;j++) {
+					//もう少しシンプルなやり方があるはず
 					if(i % 2 == 0) {
 						if(j % 2 == 0) {
 							System.out.print("#");
