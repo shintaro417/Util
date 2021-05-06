@@ -13,6 +13,7 @@ public class Main {
 
 		Arrays.sort(ans);
 
+		//出力に注意
 		for(int i = 0;i < ans.length;i++) {
 			System.out.print(ans[i]);
 			if(i < ans.length - 1) {
