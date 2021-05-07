@@ -14,6 +14,9 @@ public class Main {
 
 				long sum = 0;
 				for(int i = 0;i < n.length();i++) {
+					//文字列nの文字iを整数に変換する場合
+					//int num;
+					//num = n.charAt(i) - '0'
 					char ch = n.charAt(i);
 					int num = Character.getNumericValue(ch);
 					sum += num;
