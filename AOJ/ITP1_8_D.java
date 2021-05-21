@@ -10,7 +10,7 @@ public class Main {
 		StringBuilder sbString = new StringBuilder(string);
 		boolean flag = false;
 		for(int i = 0;i < string.length();i++) {
-			if(sbString.indexOf(p) >= 0 ) {
+			if(sbString.indexOf(p) >= 0 ) { //加工した文字列と指定する文字列が一致する時
 				flag = true;
 				break;
 			}
